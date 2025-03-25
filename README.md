@@ -23,11 +23,11 @@ Este proyecto es una botonera interactiva desarrollada con Vue.js y Vuetify para
    ```
 
 ## Configuración
-Este proyecto se comunica con un servidor Python para manejar las teclas y obtener datos de telemetría. Dicho servidor se encuentra en otro repositorio de esta cuenta **[Nathan P](https://github.com/sebarr90/botoneraBackend)**. Asegúrate de configurarlo correctamente para que la botonera funcione.
+Este proyecto se comunica con un servidor Python para manejar las teclas y obtener datos de telemetría. Dicho servidor se encuentra en otro repositorio de esta cuenta **[sebarr90](https://github.com/sebarr90/botoneraBackend)**. Asegúrate de configurarlo correctamente para que la botonera funcione.
 
 
 ## API de Telemetría
-Se utiliza la API **ETS2 Telemetry Server** de **[Nathan P](https://github.com/Funbit/ets2-telemetry-server)** para obtener información en tiempo real del camión.
+Se utiliza la API **ETS2 Telemetry Server** de **[Funbit](https://github.com/Funbit/ets2-telemetry-server)** para obtener información en tiempo real del camión.
 
 ## Licencia
 Este proyecto está bajo la **Licencia MIT**. Puedes usarlo, modificarlo y distribuirlo libremente, siempre y cuando se mantenga la atribución al autor original.
