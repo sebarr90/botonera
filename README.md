@@ -1,45 +1,37 @@
-# Botonera para Euro Truck Simulator 2 🚛
+# Botonera para Euro Truck Simulator 2
 
-Este proyecto es una botonera interactiva desarrollada con **Vue.js** y **Vuetify** para controlar acciones dentro de *Euro Truck Simulator 2* (ETS2). Se conecta con un servidor backend en Python para enviar comandos al juego y obtener información en tiempo real.
+Este proyecto es una botonera interactiva desarrollada con Vue.js y Vuetify para controlar diversas funciones dentro del juego **Euro Truck Simulator 2**. 
 
-## Características ✨
+## Características
+- Simulación de botones físicos con iconos representativos.
+- Integración con una API de telemetría para reflejar el estado del camión en la botonera.
+- Diseño optimizado para dispositivos táctiles.
 
-- Control de funciones esenciales del camión (freno de mano, luces, bocina, etc.).
-- Interfaz adaptada para una experiencia fluida y visualmente atractiva.
-- Obtención de datos en tiempo real del estado del camión mediante la API de telemetría.
+## Instalación
+1. Clona este repositorio:
+   ```sh
+   git clone https://github.com/tu-usuario/nombre-del-repo.git
+   ```
+2. Instala las dependencias:
+   ```sh
+   cd nombre-del-repo
+   npm install
+   ```
+3. Inicia el entorno de desarrollo:
+   ```sh
+   npm run serve
+   ```
 
-## Instalación y Uso 🚀
+## Configuración
+Este proyecto se comunica con un servidor Python para manejar las teclas y obtener datos de telemetría. Dicho servidor se encuentra en otro repositorio de esta cuenta **[Nathan P](https://github.com/sebarr90/botoneraBackend)**. Asegúrate de configurarlo correctamente para que la botonera funcione.
 
-### 1️⃣ Clonar el repositorio:
-```bash
-git clone https://github.com/tu-usuario/tu-repositorio.git
-cd tu-repositorio
-```
 
-### 2️⃣ Instalar dependencias:
-```bash
-npm install
-```
+## API de Telemetría
+Se utiliza la API **ETS2 Telemetry Server** de **[Nathan P](https://github.com/Funbit/ets2-telemetry-server)** para obtener información en tiempo real del camión.
 
-### 3️⃣ Configurar el proxy (si es necesario):
-Si el servidor Flask se ejecuta en otra IP, asegúrate de actualizar `vue.config.js`.
-
-### 4️⃣ Iniciar la aplicación:
-```bash
-npm run serve
-```
-
-## API de Telemetría 💽
-
-Este proyecto utiliza la **API de telemetría de ETS2** para obtener información del estado del camión en tiempo real. Todo el crédito por esta API va para su creador, cuyo trabajo ha sido fundamental para integrar la funcionalidad de estado en la botonera.
-
-🔗 **[Enlace al proyecto de la API](https://github.com/Funbit/ets2-telemetry-server)**
-
-## Licencia 📛
-
-Este proyecto está bajo la **Licencia MIT**, lo que significa que puedes usarlo y modificarlo libremente, siempre que incluyas la atribución al autor original.
+## Licencia
+Este proyecto está bajo la **Licencia MIT**. Puedes usarlo, modificarlo y distribuirlo libremente, siempre y cuando se mantenga la atribución al autor original.
 
 ---
-
-🚛 ¡Conduce con estilo y controla tu camión como un profesional! 🎮
+🚛 ¡Feliz conducción! 🔥
 
