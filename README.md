@@ -10,7 +10,7 @@ Este proyecto es una botonera interactiva desarrollada con Vue.js y Vuetify para
 ## Instalación
 1. Clona este repositorio:
    ```sh
-   git clone https://github.com/tu-usuario/nombre-del-repo.git
+   git clone https://github.com/sebarr90/botonera
    ```
 2. Instala las dependencias:
    ```sh
